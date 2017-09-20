@@ -15,7 +15,7 @@ public class Sorter {
 
 		public DataHolder(int i) {
 			this.i = i;
-			this.numberOfOne = Integer.toBinaryString(i).chars().parallel().filter( (a) -> a == '1' ).count();
+			this.numberOfOne = Integer.toBinaryString(i).chars().filter( (a) -> a == '1' ).count();
 		}
 
 		@Override
